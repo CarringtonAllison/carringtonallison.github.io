@@ -6,6 +6,10 @@
     float: right;
 }
 
+body {
+    margin: 0;  
+}
+
 .clearfix::after {
     display: block;
     content: "";
@@ -148,8 +152,7 @@ header {
 .box-set {
     position: relative;
     width: 100%;
-    height: 100px;
-    background-color: lightgray;
+    height: 425px;
 }
 
 .box {
@@ -163,6 +166,48 @@ header {
 }
 
 .box2 {
-    left: 10px;
+    left: 25%;
     top: 0px;
+}
+
+.box3 {
+    top: 0;
+    left: 50%;
+}
+
+.box4 {
+    top: 0;
+    right:0;
+}
+
+.box5 {
+    bottom: 0;
+    left: 0;
+}
+
+.box6 {
+    bottom: 0;
+    left: 25%;
+}
+.box7 {
+    bottom: 0;
+    left: 50%;
+}
+
+.box8 {
+    bottom: 0;
+    right: 0;
+}
+#slim {
+    margin-top: -4px;
+    margin-bottom: -4px;
+}
+
+h3.portfolio {
+    position: absolute;
+    bottom: 10px;
+    width: 80%;
+    background-color:#dddddd;
+    text-align: center;
+    margin-left: 20px;
 }
