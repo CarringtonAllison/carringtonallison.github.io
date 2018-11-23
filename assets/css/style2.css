@@ -1,0 +1,205 @@
+* {
+    box-sizing: border-box;
+}
+body {
+    background-image: url(../images/IMG_8483.jpg);
+    background-size: cover;
+    height: -webkit-fill-available;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+.container {
+    margin-top: 10px;
+}
+ 
+@font-face {
+    font-family: International; src: url(../International.ttf);
+}
+p {
+    color: white;
+    font-family: 'Ubuntu', sans-serif;
+}
+
+.links {
+    text-align: center;
+}
+
+h4 {
+    color: #ffd78d;
+    font-family: 'International';
+    text-align: center; 
+}
+
+
+
+.firstCol {
+    margin-top: 20px; 
+}
+
+.firstRow{
+    text-align: left; 
+}
+
+#red {
+    color: black;
+
+}
+
+h2 {
+    color: #ca4545;
+    border-bottom: 4px solid #ffd78d; 
+}
+
+h2.navbar-brand {
+    font-size: 26px;
+}
+
+.navborders {
+    border-left: 2px solid #ca4545;
+}
+
+.darkback {
+    background-color: rgba(0, 0, 0, .3);
+    margin-top: 10px;
+    padding-top: 10px;
+}
+
+
+a.navbar-brand {
+    font-size: 40px;
+    
+}
+
+nav>.container  {
+    margin-top:40px;
+}
+
+ul.navbar-nav {
+    font-size: 25px;
+}
+
+#textColor {
+    color: black;
+}
+
+#textPosandCol {
+    color: black;
+    left: 40%;
+}
+
+.navbar {
+    font-family: 'International', sans-serif;
+}
+
+
+.navbar-light .navbar-nav .active>.nav-link, .navbar-light .navbar-nav .nav-link.active, .navbar-light .navbar-nav .nav-link.show, .navbar-light .navbar-nav .show>.nav-link {
+    color: white;
+
+}
+
+.navbar-light .navbar-nav .nav-link {
+    color: white;
+}
+
+
+
+.navbar-light .navbar-brand {
+    color: #ca4545;
+    height: -35px;
+}
+
+
+.carousel-row {
+    margin-top: 5%;
+}
+
+.carousel-inner > .item > img {
+    width:640px;
+    height:360px;
+}
+
+.cap {
+    position: absolute;
+    left: 0;
+    width: 50%;
+    top: 2%;
+    text-align: left;
+    margin-left: 10%;
+}
+.capp {
+    position: absolute;
+    right: 0;
+    width: 50%;
+    top: 2%;
+    text-align: right;
+    margin-left: 30%;
+}
+.carousel-caption>h5    {
+    font-size: 5%;
+}
+
+.cborder {
+    border: 4px groove black;
+}
+
+.col-lg-4>img {
+    border: 4px groove black;   
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+
+
+i.size {
+   font-size: 50px;
+   color: #ca4545;  
+   margin-left: 14px;  
+}
+
+.rowbord {
+    border-top: 4px solid white;
+    border-bottom: 4px solid white;
+    padding: 30px;  
+    margin-top: 40px;
+    margin-bottom: 40px;
+}
+
+form>input#message { 
+    height: 25px;
+    width: auto;
+}
+
+button {
+    margin-top: 20px;
+}
+.smaller {
+    margin-top: 30px;
+    height: 550px;
+    width: auto;
+
+}
+
+form {
+    text-align: center; 
+}
+
+
+@media only screen and (max-width: 600px) {
+
+
+    a.navbar-brand {
+        font-size: 29px;
+    }
+    .navborders {
+        border-left: none;
+    }
+    .smaller {
+        height: 400px;
+    }
+}
+
+
+
+    
