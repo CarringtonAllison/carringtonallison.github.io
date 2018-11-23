@@ -1,16 +1,9 @@
-* {
-    box-sizing: border-box;
-}
 body {
     background-image: url(../images/IMG_8483.jpg);
     background-size: cover;
     height: -webkit-fill-available;
     background-repeat: no-repeat;
     background-attachment: fixed;
-}
-
-.container {
-    margin-top: 10px;
 }
  
 @font-face {
@@ -30,8 +23,6 @@ h4 {
     font-family: 'International';
     text-align: center; 
 }
-
-
 
 .firstCol {
     margin-top: 20px; 
@@ -170,10 +161,6 @@ form>input#message {
     height: 25px;
     width: auto;
 }
-
-button {
-    margin-top: 20px;
-}
 .smaller {
     margin-top: 30px;
     height: 550px;
@@ -185,12 +172,22 @@ form {
     text-align: center; 
 }
 
+.carousel-margin {
+    margin-top: 100px
+}
+
+
+
+
+
+
+
+
 
 @media only screen and (max-width: 600px) {
-
-
+    
     a.navbar-brand {
-        font-size: 29px;
+        font-size: 26px;
     }
     .navborders {
         border-left: none;
