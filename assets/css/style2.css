@@ -192,6 +192,88 @@ form {
     border-radius: 20px; 
 }
 
+.pictureSize {
+    height: 200px; 
+    width: auto; 
+}
+
+#teenTitansGo {
+    background-image: url("https://media2.giphy.com/media/xT1R9RCYYpObz53JzW/giphy.gif?cid=3640f6095bf88d2165706438637a34d3");
+}
+
+#psychic {
+    background-image: url("https://media3.giphy.com/media/26vUAAwkzAMnBj9x6/giphy.gif?cid=3640f6095bf88ef85170504e4978f64a");
+}
+
+#hangman {
+    background-image: url("https://media3.giphy.com/media/VNHTrO8h0fKAE/giphy.gif?cid=3640f6095bf890874a354e2e4d05c20f");
+}
+
+#trivia {
+    background-image: url("https://media3.giphy.com/media/xUOxfjsW9fWPqEWouI/giphy.gif?cid=3640f6095bf891f6415850323233d6da");
+}
+
+#train {
+    background-image: url("https://media2.giphy.com/media/xT9KVuOrJRZ6jgIPsI/giphy.gif?cid=3640f6095bf892915965367759f4c581");
+}
+
+#top5 {
+    background-image: url("https://media0.giphy.com/media/gEp3FbMTRTu1i/giphy.gif?cid=3640f6095bf89364304865462e35ecaf");
+}
+
+#soulm8 {
+    background-image: url("https://media1.giphy.com/media/l4Ki4biBSwhjyrS48/giphy.gif?cid=3640f6095bf894eb436f333055317dbf");
+}
+
+#paradise {
+    background-image: url("https://media3.giphy.com/media/Nqi5KJIEGStWg/giphy.gif?cid=3640f6095bf89609614f6b5055761e98");
+}
+
+#liri {
+    background-image: url("https://media2.giphy.com/media/11kEuHSQAXXiGQ/giphy.gif?cid=3640f6095bf896b537495073452a0ee3");
+}
+
+#shoeStore {
+    background-image: url("https://media.giphy.com/media/v5VMPrw6ImnV6/giphy.gif");
+}
+
+#burgers {
+    background-image: url("https://media2.giphy.com/media/3ohjUObkKl8CyTFYf6/200w.webp?cid=3640f6095bf8986a772e6363592a0467");
+}
+
+.buttonBackground {
+    background-position: center; 
+    background-size: cover; 
+    height: 169px;
+    width: 300px;
+    margin: 10px auto;
+    padding: 0;
+    background-size: cover;
+    box-shadow: 3px 3px 3px 3px rgba(0, 0, 0, .3);
+}
+
+.websiteBanner {
+    background: rgba(0, 0, 0, .5);
+    color: white;
+    padding: 5px;
+    font-family: 'International';
+    font-weight: bold;
+}
+
+#containerBackground {
+    background-color: rgba(255, 255, 255, .6);
+    padding: 20px; 
+}
+
+.portfolioTitles {
+    text-align: center;
+    font-family: 'International';
+    color: #ca4545;
+    font-weight: bold;
+    text-decoration: underline #ffd78d; 
+
+}
+
 @media only screen and (max-width: 600px) {
     
     a.nameBrand {
