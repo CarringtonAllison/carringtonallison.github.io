@@ -197,57 +197,57 @@ form {
     width: auto; 
 }
 
-#teenTitansGo {
+#Teen-Titans-Go {
     background-image: url("https://media2.giphy.com/media/xT1R9RCYYpObz53JzW/giphy.gif?cid=3640f6095bf88d2165706438637a34d3");
     /* background-image: url("../images/TeenTitansWallpaper.webp"); */
 }
 
-#psychic {
+#Psychic {
     background-image: url("https://media3.giphy.com/media/26vUAAwkzAMnBj9x6/giphy.gif?cid=3640f6095bf88ef85170504e4978f64a");
     /* background-image: url("../images/psychic.webp"); */
 }
 
-#hangman {
+#HangMan {
     background-image: url("https://media3.giphy.com/media/VNHTrO8h0fKAE/giphy.gif?cid=3640f6095bf890874a354e2e4d05c20f");
     /* background-image: url("../images/Hangman.webp"); */
 }
 
-#trivia {
+#Trivia {
     background-image: url("https://media3.giphy.com/media/xUOxfjsW9fWPqEWouI/giphy.gif?cid=3640f6095bf891f6415850323233d6da");
     /* background-image: url("../images/trivia.webp"); */
 }
 
-#train {
+#Train-Scheduler {
     background-image: url("https://media2.giphy.com/media/xT9KVuOrJRZ6jgIPsI/giphy.gif?cid=3640f6095bf892915965367759f4c581");
     /* background-image: url("../images/trains.webp"); */
 }
 
-#top5 {
+#Top5 {
     background-image: url("https://media0.giphy.com/media/gEp3FbMTRTu1i/giphy.gif?cid=3640f6095bf89364304865462e35ecaf");
     /* background-image: url("../images/football.webp"); */
 }
 
-#soulm8 {
+#SoulM8 {
     background-image: url("https://media1.giphy.com/media/l4Ki4biBSwhjyrS48/giphy.gif?cid=3640f6095bf894eb436f333055317dbf");
     /* background-image: url("../images/soulM8.webp"); */
 }
 
-#paradise {
+#Paradise {
     background-image: url("https://media3.giphy.com/media/Nqi5KJIEGStWg/giphy.gif?cid=3640f6095bf89609614f6b5055761e98");
     /* background-image: url("../images/waterfall.webp"); */
 }
 
-#liri {
+#Liri-Bot {
     background-image: url("https://media2.giphy.com/media/11kEuHSQAXXiGQ/giphy.gif?cid=3640f6095bf896b537495073452a0ee3");
     /* background-image: url("../images/Liri.webp"); */
 }
 
-#shoeStore {
+#Online-Shoe-Store {
     background-image: url("https://media.giphy.com/media/v5VMPrw6ImnV6/giphy.gif");
     /* background-image: url("../images/shoes.webp"); */
 }
 
-#burgers {
+#Burger-Factory {
     background-image: url("https://media0.giphy.com/media/l0K4lPx8bvdbFMdGM/200w.webp?cid=3640f6095bf8a3fb4c325a62512d4505");
     /* background-image: url("../images/burgers.webp"); */
 }
@@ -284,6 +284,34 @@ form {
     text-decoration: underline #ffd78d; 
 
 }
+
+#siteButton {
+    border-radius: 20px; 
+    background-color: rgba(255,255,255,.8);
+    color: rgb(12, 12, 62); 
+
+}
+
+.modal-header .close {
+    padding: 0;
+    margin: 0;
+}
+
+.modal-title {
+    color: white; 
+}
+
+.modal-body {
+    text-align: center;
+}
+.modal-content {
+    background-color: rgba(255,255,255,.8);
+    border-radius: 10px;
+}
+.modal-header, .modal-footer {
+    background-color: rgba(12, 12, 62, .6)
+}
+
 
 @media only screen and (max-width: 600px) {
     
