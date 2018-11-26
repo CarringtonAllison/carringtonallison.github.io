@@ -270,12 +270,12 @@ form {
 }
 
 .overlay {
-    background-color: rgba(255, 215, 141, .5);
+    background-color: rgba(255, 215, 141, .6);
     position: absolute;
     top: 0;
     left: 0;
     width: 100%;
-    opacity: 1;
+    opacity: 0;
     height: 100%;
     z-index: 1;
     border-radius: 20px; 
@@ -283,7 +283,7 @@ form {
 }
       
 button:hover .overlay {
-    opacity: 0;
+    opacity: 1;
     cursor: pointer;
 }
 
