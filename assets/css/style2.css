@@ -56,7 +56,6 @@ h2.nameBrand {
     padding-top: 10px;
 }
 
-
 .nameBrand {
     font-size: 40px;
 }
@@ -252,6 +251,11 @@ form {
     /* background-image: url("../images/burgers.webp"); */
 }
 
+#Pill-Coach {
+    background-image: url("https://media2.giphy.com/media/3o7TKozruAlI826Mo0/200.webp?cid=3640f6095bfc4a5f7a546d6d2ed35ab8");
+    /* background-image: url("../images/burgers.webp"); */
+}
+
 .buttonBackground {
     background-position: center; 
     background-size: cover; 
@@ -259,16 +263,40 @@ form {
     width: 300px;
     margin: 10px auto;
     padding: 0;
+    border-radius: 20px; 
     background-size: cover;
     box-shadow: 3px 3px 3px 3px rgba(0, 0, 0, .3);
+    position: relative;
+}
+
+.overlay {
+    background-color: rgba(255, 215, 141, .5);
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    opacity: 1;
+    height: 100%;
+    z-index: 1;
+    border-radius: 20px; 
+    transition: .5s ease;
+}
+      
+button:hover .overlay {
+    opacity: 0;
+    cursor: pointer;
 }
 
 .websiteBanner {
     background: rgba(0, 0, 0, .5);
+    position: absolute;
+    width: 100%;
+    top: 42%;   
     color: white;
     padding: 5px;
     font-family: 'International';
     font-weight: bold;
+    z-index: 1;
 }
 
 #containerBackground {
