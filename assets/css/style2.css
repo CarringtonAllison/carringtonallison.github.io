@@ -140,6 +140,10 @@ form>input#message {
     width: auto;
 }
 
+.pad {
+    padding-bottom: 70px; 
+}
+
 .padTop {
     padding-top: 40px;
     padding-bottom: 40px;
@@ -199,7 +203,7 @@ form {
 }
 
 .overlay {
-    background-color: rgba(255, 215, 141, .6);
+    background-color: rgba(216, 128, 126, .7);
     position: absolute;
     top: 0;
     left: 0;
@@ -229,8 +233,10 @@ button:hover .overlay {
 }
 
 #containerBackground {
-    background-color: rgba(255, 255, 255, .6);
+    background-color: rgba(255, 255, 255, .4);
     padding: 20px; 
+    padding-bottom: 40px;
+    border-radius: 10px;
 }
 
 .portfolioTitles {
