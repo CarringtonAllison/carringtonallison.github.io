@@ -40,6 +40,7 @@ h2 {
 
 #nameHead {
     font-size: 47px;
+    font-weight: bolder;
     color: #48c5c9;
     text-decoration: none;
     transition: .25s ease;
