@@ -17,10 +17,10 @@
 
 <body>
     <div class="container">
-        <nav class="justify-content-center navbar navbar-expand-lg navbar-light">
-            <div class="row align-items-center">
-                <div class="col center ">
-                    <a class="nameBrand" href="./index.html">Carrington Allison</a>
+        <div class="row">
+            <nav class="col navbar navbar-expand-lg navbar-light">
+                <div id="nameBrand" class="col center ">
+                    <a id="nameHead" href="./index.html">Carrington Allison</a>
                 </div>
                 <div class="col d-flex justify-content-center togglerMargin">
                     <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
@@ -30,35 +30,27 @@
                     <div class="collapse navbar-collapse" id="navbarNav">
                         <ul class="navbar-nav ml-auto">
                             <li class="nav-item active">
-                                <a class="nav-link" href="./portfolio.html">Portfolio <span class="sr-only">(current)</span></a>
+                                <a id="portfolio" class="nav-link" href="./portfolio.html">- Portfolio -<span class="sr-only">(current)</span></a>
                             </li>
                         </ul>
                     </div>
                 </div>
-            </div>
-        </nav>
+            </nav>
+        </div>
         <div class="row">
-            <div class="firstCol col-lg-4">
-                <h4 class="firstRow">Who I Am</h4>
+            <div class="col-lg-4">
+                <h4>Who I Am</h4>
                 <p id="red"><em>"I am always learning, always discovering"</em> Isamu Noguchi </p>
                 <p>Passionate about all things creative! First and foremost, always make sure to have a good
                     time...then Music,
                     Film, and Coding is what defines who I am. I'm all about sports so obviously my favorite channel is
                     ESPN. Make it a point to cherish all the time I can spend with friends and family. We only have
                     this one life so I make sure to enjoy every moment.</p>
-                <h4 class="firstRow">Education</h4>
+                <h4>Education</h4>
                 <p>- Arizona State University - B.A. Digital Culture (Media & Engineering)</p>
                 <p>- University of Arizona - Continuing and Professional Education Web Development Coding Bootcamp</p>
-                <h4 class="firstRow">Social</h4>
-                <div class="links">
-                    <a href="https://www.linkedin.com/in/carringtonallison/" target="_blank"><i class="fab fa-linkedin size"></i></a>
-                    <a href="https://github.com/CarringtonAllison" target="_blank"><i class="fab fa-github size"></i></a>
-                    <a href="https://www.facebook.com/carrington.allison?ref=bookmarks" target="_blank"><i class="fab fa-facebook-square size"></i></a>
-                    <a href="https://www.instagram.com/hurricaneseason_music/" target="_blank"><i class="fab fa-instagram size"></i></a>
-                    <a href="https://twitter.com/hurrican3season" target="_blank"><i class="fab fa-twitter size"></i></a>
-                </div>
             </div>
-            <div class="col-lg-4 darkback">
+            <div class="col-lg-4">
                 <h4>Interests</h4>
                 <p>Music was with me since a young boy. I played trumpet throughout my younger years to making Hip Hop
                     music and performing. From music, I found a passion in film and photography. I found I have a
@@ -71,51 +63,31 @@
                     uncomfortable. I've been to the heart of Sinaloa, Mexico all the way to the very animated Tokyo,
                     Japan! Cruised the caribbean to explore the island of Aruba and plan to have tea and crumpets in
                     Europe!</p>
-                <h4>Contact</h4>
-                <p>Email: Carrington_Allison@yahoo.com</p>
             </div>
             <div class="col-lg-4">
-                <img class="smaller" src="./assets/images/IMG_8480.jpg" alt="selfie of Carrington">
+                <h4>Connect With Me!</h4>
+                <div class="center" >
+                    <a href="https://www.linkedin.com/in/carringtonallison/" target="_blank"><i class="fab fa-linkedin size"></i></a>
+                    <a href="https://github.com/CarringtonAllison" target="_blank"><i class="fab fa-github size opp"></i></a>
+                    <a href="https://www.facebook.com/carrington.allison?ref=bookmarks" target="_blank"><i class="fab fa-facebook-square size"></i></a>
+                    <a href="mailto:carrington_allison@yahoo.com"><i class="far fa-envelope size opp"></i></a>
+                    <a href="./assets/images/2018CarringtonAllison_SoftwareEngineeringResume.pdf" target="_blank"><i class="fas fa-id-card size"></i></a>
+                </div>
+                <div class="center padTop">
+                    <img id="profilePhoto" src="./assets/images/IMG_8480.jpg" alt="selfie of Carrington">
+                </div>
             </div>
         </div>
 
-        <!-- two white lines for the seperation -->
-        <div class="row rowbord">
-            <div class="col-lg-12">
-            </div>
-        </div>
-
-        <div class="row justify-content-center">
-            <div class="col col-lg-8">
-                <form>
-                    <h2 class="navbar-brand">Message Me</h2>
-                    <div class="form-group">
-                        <label for="formGroupExampleInput"></label>
-                        <input type="text" class="form-control formUpdate" id="formGroupExampleInput" placeholder="Full Name">
-                    </div>
-                    <div class="form-group">
-                        <label for="formGroupExampleInput2"></label>
-                        <input type="text" class="form-control formUpdate" id="formGroupExampleInput2" placeholder="Email">
-                    </div>
-                    <div class="form-group">
-                        <label for="formGroupExampleInput2"></label>
-                        <input id="message" type="text" class="form-control formUpdate" id="formGroupExampleInput2"
-                            placeholder="Message">
-                        <button type="submit" class="btn btn-primary mb-2 submitButton">Submit</button>
-                    </div>
-                </form>
-            </div>
-        </div>
-    </div>
 
 
-    <script src="https://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="
-        crossorigin="anonymous"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49"
-        crossorigin="anonymous"></script>
-    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy"
-        crossorigin="anonymous"></script>
-    <script src="./assets/javascript/app.js"></script>
+        <script src="https://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="
+            crossorigin="anonymous"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49"
+            crossorigin="anonymous"></script>
+        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy"
+            crossorigin="anonymous"></script>
+        <script src="./assets/javascript/app.js"></script>
 </body>
 
 </html>

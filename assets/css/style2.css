@@ -1,7 +1,7 @@
 body {
-    background-image: url(../images/IMG_8483.jpg);
+    background-image: url(../images/mohammad-alizade-631039-unsplash.jpg);
+    background-position: center;
     background-size: cover;
-    height: -webkit-fill-available;
     background-repeat: no-repeat;
     background-attachment: fixed;
 }
@@ -19,16 +19,8 @@ p {
 }
 
 h4 {
-    color: #ffd78d;
+    color: #ecaeaa;
     font-family: 'International';
-    text-align: center; 
-}
-
-.firstCol {
-    margin-top: 20px; 
-}
-
-.firstRow{
     text-align: center; 
 }
 
@@ -38,26 +30,27 @@ h4 {
 }
 
 h2 {
-    color: #ca4545;
-    border-bottom: 4px solid #ffd78d; 
-}
-
-h2.nameBrand {
-    font-size: 26px;
+    color: #48c5c9;
+    border-bottom: 4px solid #ecaeaa; 
 }
 
 .navborders {
-    border-left: 2px solid #ca4545;
+    border-left: 2px solid #48c5c9;
 }
 
-.darkback {
-    background-color: rgba(0, 0, 0, .3);
-    margin-top: 10px;
-    padding-top: 10px;
-}
-
-.nameBrand {
+#nameHead {
     font-size: 40px;
+    color: #48c5c9;
+    text-decoration: none;
+    transition: .25s ease;
+}
+
+#nameBrand {
+    transition: .25s ease;
+}
+
+#nameBrand:hover {
+    transform: scale(1.05); 
 }
 
 ul.navbar-nav {
@@ -75,28 +68,27 @@ ul.navbar-nav {
 
 .navbar {
     font-family: 'International', sans-serif;
+    padding: 50px; 
 }
 
 
-.navbar-light .navbar-nav .active>.nav-link, .navbar-light .navbar-nav .nav-link.active, .navbar-light .navbar-nav .nav-link.show, .navbar-light .navbar-nav .show>.nav-link {
+#portfolio {
     color: white;
+    transition: .25s ease
 
 }
 
-.navbar-light .navbar-nav .nav-link {
+#portfolio:hover {
+    transform: scale(1.05)
+}
+
+#meetMe {
     color: white;
+    transition: .25s ease
 }
 
-
-
-.navbar-light .nameBrand {
-    color: #ca4545;
-    height: -35px;
-}
-
-
-.carousel-row {
-    margin-top: 5%;
+#meetMe:hover {
+    transform: scale(1.05)
 }
 
 .carousel-inner > .item > img {
@@ -128,16 +120,9 @@ ul.navbar-nav {
     border: 4px groove black;
 }
 
-.col-lg-4>img {
-    border: 4px groove black;   
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-}
-
 i.size {
    font-size: 50px;
-   color: #ca4545;  
+   color: #48c5c9;  
    margin-left: 14px;  
 }
 
@@ -149,23 +134,32 @@ i.size {
     margin-bottom: 40px;
 }
 
+
 form>input#message { 
     height: 25px;
     width: auto;
 }
-.smaller {
-    margin-top: 30px;
-    height: 550px;
-    width: auto;
 
+.padTop {
+    padding-top: 40px;
+    padding-bottom: 40px;
+}
+
+#profilePhoto {
+    height: 400px;
+    width: auto;
+    box-shadow: 3px 2px 15px 3px rgba(255, 255, 255, .4);
+    border: 4px groove black;   
+    transition: .25s;
+    border-radius: 70px;
+}
+
+#profilePhoto:hover {
+    transform: scale(1.05)
 }
 
 form {
     text-align: center; 
-}
-
-.carousel-margin {
-    margin-top: 100px
 }
 
 .nameBrand {
@@ -175,11 +169,6 @@ form {
 
 .center {
     text-align: center; 
-}
-
-
-.togglerMargin {
-    margin-top: 15px;
 }
 
 .formUpdate {
@@ -228,7 +217,7 @@ button:hover .overlay {
 }
 
 .websiteBanner {
-    background: rgba(0, 0, 0, .5);
+    background: rgba(82, 64, 121, .65);
     position: absolute;
     width: 100%;
     top: 42%;   
@@ -247,9 +236,8 @@ button:hover .overlay {
 .portfolioTitles {
     text-align: center;
     font-family: 'International';
-    color: #ca4545;
+    color: #5a5067;
     font-weight: bold;
-    text-decoration: underline #ffd78d; 
 
 }
 
@@ -289,19 +277,21 @@ button:hover .overlay {
     transform: scale(1.1)
 }
 
-
-@media only screen and (max-width: 600px) {
-    
-    a.nameBrand {
-        font-size: 28px;
-    }
-    .navborders {
-        border-left: none;
-    }
-    .smaller {
-        height: 400px;
-    }
+.size {
+    transition: .25s ease
 }
+
+.size:hover {
+    transform: rotate(-15deg) scale(1.3)
+}
+
+.opp:hover {
+    transform: rotate(15deg) scale(1.3)
+}
+
+
+
+
 
 
 

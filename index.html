@@ -17,32 +17,33 @@
 
 <body>
     <div class="container">
-        <nav class="justify-content-center navbar navbar-expand-lg navbar-light">
-            <div class="row align-items-center">
-                <div class="col center ">
-                    <a class="nameBrand" href="./index.html">Carrington Allison</a>
+        <div class="row">
+            <nav class="col navbar navbar-expand-lg navbar-light">
+                <div id="nameBrand" class="col">
+                    <a id="nameHead" href="./index.html">Carrington Allison</a>
                 </div>
-                <div class="col d-flex justify-content-center togglerMargin">
+                <div class="col d-flex justify-content-center">
                     <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
                         aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
                         <span class="navbar-toggler-icon"></span>
                     </button>
                     <div class="collapse navbar-collapse" id="navbarNav">
                         <ul class="navbar-nav ml-auto">
-                            <li class="nav-item active">
-                                <a class="nav-link" href="./portfolio.html">Portfolio <span class="sr-only">(current)</span></a>
+                            <li class="nav-item">
+                                <a id="portfolio" class="nav-link" href="./portfolio.html">Portfolio <span class="sr-only">(current)</span></a>
                             </li>
                             <li class="nav-item navborders">
-                                <a class="nav-link" href="./contact.html">Meet Me</a>
+                                <a id="meetMe" class="nav-link" href="./contact.html">Meet Me</a>
                             </li>
                         </ul>
                     </div>
                 </div>
-            </div>
-        </nav>
-        <div class="row carousel-margin justify-content-center align-items-center carousel-row">
+            </nav>
+        </div>
+        <div class="row justify-content-center align-items-center">
             <div class="col-lg-10">
-                <div id="carouselExampleIndicators" class="carousel slide cborder" data-ride="carousel">
+                <div id="carouselExampleIndicators" class="carousel slide carousel-fade cborder" data-interval="3000"
+                    data-pause="false" data-ride="carousel">
                     <ol class="carousel-indicators">
                         <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
                         <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
