@@ -332,9 +332,9 @@ button:hover .overlay {
   background-color: white;
   background-color: white;
   border-radius: 50%;
-  padding: 30px;
+  padding: 20px;
   margin: 30px;
-  font-size: 40px;
+  font-size: 30px;
   border: #c27d7f solid;
   box-shadow: 0px 0px 20px 5px rgb(0, 0, 0);
 }
@@ -344,14 +344,15 @@ button:hover .overlay {
 }
 
 .info {
-  font-size: 14px;
+  font-size: 13px;
 }
 
 .main {
-  padding-bottom: 100px;
+  padding-bottom: 50px;
+  margin-top: -50px;
 }
 
-ul {
+.banner > ul {
   list-style-type: square;
   color: white;
   font-style: italic;
