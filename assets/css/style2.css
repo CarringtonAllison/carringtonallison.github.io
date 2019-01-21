@@ -321,6 +321,11 @@ button:hover .overlay {
   margin: 10px;
   border-radius: 10px;
   padding: 20px;
+  transition: 0.25s ease;
+}
+
+.banner:hover {
+  transform: scale(1.08);
 }
 
 .icon {
@@ -330,11 +335,27 @@ button:hover .overlay {
   padding: 30px;
   margin: 30px;
   font-size: 40px;
+  border: #c27d7f solid;
+  box-shadow: 0px 0px 20px 5px rgb(0, 0, 0);
+}
+
+.indent {
+  text-indent: 8%;
+}
+
+.info {
+  font-size: 14px;
+}
+
+.main {
+  padding-bottom: 100px;
 }
 
 ul {
   list-style-type: square;
   color: white;
+  font-style: italic;
+  font-size: 18px;
 }
 
 /* Extra small devices (phones, 600px and down) */
